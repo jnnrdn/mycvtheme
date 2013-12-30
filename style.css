@@ -72,6 +72,12 @@ nav,
 section {
 	display: block;
 }
+aside {
+	width: 20%;
+	float: left;
+	position: fixed;
+	padding: 2em 2em 0 5em;
+}
 ol, ul {
 	list-style: none;
 }
@@ -399,13 +405,17 @@ a:active {
 }
 
 
-/* =Menu
+/* =Menu & site branding
 ----------------------------------------------- */
+.site-branding {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #CCC;
+}
 
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
 }
 .main-navigation ul {
 	list-style: none;
@@ -413,7 +423,7 @@ a:active {
 	padding-left: 0;
 }
 .main-navigation li {
-	float:left;
+
 }
 .main-navigation a {
 	display: block;
@@ -473,10 +483,13 @@ a:active {
 #content {
 	padding: 0 3em;
 	margin-top: 2em;
+	margin-left: 25%;
+	max-width: 700px;
 }
 #primary {
 	float: left;
-	max-width: 500px;
+	max-width: 600px;
+	margin-left: 25%;
 }
 #secondary {
 	clear:both;
