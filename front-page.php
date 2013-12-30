@@ -28,7 +28,7 @@
             $slug = $page_data->post_name;
         ?>
         <div class='page' id='<?php echo "$slug" ?>'>
-              <h2><?php echo "$title" ?></h2>
+              <h2 class="page-title"><?php echo "$title" ?></h2>
               <?php echo "$content" ?>
         </div>
 
