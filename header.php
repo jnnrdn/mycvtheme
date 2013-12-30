@@ -38,5 +38,16 @@
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<h1 class="menu-toggle"><?php _e( 'Menu', 'mycv' ); ?></h1>
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'mycv' ); ?></a>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			<?php wp_nav_menu( array(
+					 'container' =>false,
+					 'menu_class' => 'nav',
+					 'echo' => true,
+					 'before' => '',
+					 'after' => '',
+					 'link_before' => '',
+					 'link_after' => '',
+					 'depth' => 0,
+					 'walker' => new description_walker())
+					 );
+			?>
 		</nav><!-- #site-navigation -->
