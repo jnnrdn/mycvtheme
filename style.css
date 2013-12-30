@@ -406,7 +406,6 @@ a:active {
 	clear: both;
 	display: block;
 	float: left;
-	width: 20%;
 }
 .main-navigation ul {
 	list-style: none;
@@ -414,7 +413,7 @@ a:active {
 	padding-left: 0;
 }
 .main-navigation li {
-
+	float:left;
 }
 .main-navigation a {
 	display: block;
